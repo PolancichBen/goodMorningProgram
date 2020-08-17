@@ -1,12 +1,12 @@
 import React, {useState} from 'react';
 
 
-const NewsStory = () =>{
+const Calender = () =>{
   return(
     <div>
-      NewsStory Hooked Up
+      Calender Hooked Up
     </div>
   )
 }
 
-export default NewsStory;
+export default Calender;

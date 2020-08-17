@@ -1,12 +1,12 @@
 import React, {useState} from 'react';
 
 
-const NewsStory = () =>{
+const UpperBar = () =>{
   return(
     <div>
-      NewsStory Hooked Up
+      UpperBar Hooked Up
     </div>
   )
 }
 
-export default NewsStory;
+export default UpperBar;

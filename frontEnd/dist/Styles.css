@@ -1,1 +1,148 @@
+html{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
 
+body{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.mainContainer{
+  display: flex;
+}
+
+.newsContainer{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid green;
+  width: 30%;
+  height: 100%;
+}
+
+.newsInnerContainer{
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  height: 95%;
+}
+
+.newsTitle{
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.newsStories{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.newsStoryIndiv{
+  border: 1px solid red;
+}
+
+.middleContainer{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid indigo;
+  width: 40%;
+  height: 100%;
+}
+
+.middleSectionInnerContainer{
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  height: 100%;
+}
+
+.upperBarContainer{
+  width: 100%;
+  height: 100%;
+}
+
+.upperBarInnerContainer{
+  display: flex;
+  border: 1px solid rgb(58, 58, 58)
+}
+
+.weatherSymbol{
+  border: 1px solid red;
+  
+}
+
+.timeContainer{
+  border: 1px solid yellow;
+}
+
+.notifications{
+  border: 1px solid red;
+}
+
+.calenderContainer{
+  width: 100%;
+  height: 100%;
+}
+
+.calenderInnerContainer{
+  border: 1px solid black;
+}
+
+.firstEventContainer{
+  width: 100%;
+  height: 100%;
+}
+
+.firstEventInnerContainer{
+  border: 1px solid red;
+}
+
+.miniModulesContainer{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  width: 30%;
+  height: 100%;
+}
+
+.miniModulesInnerContainer{
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  height: 100%;
+}
+
+.miniModulesHeader{
+  font-weight: bold;
+}
+
+.modules{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+  flex-flow: wrap;
+}
+
+.moduleContainer{
+  border: 1px solid black;
+  display: flex;
+  width: 45%;
+
+}

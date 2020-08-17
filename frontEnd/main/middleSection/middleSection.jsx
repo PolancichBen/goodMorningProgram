@@ -5,14 +5,14 @@ import FirstEvent from './middleSubComponents/firstEvent.jsx';
 
 const MiddleSection = () =>{
   return(
-    <div>
-      <div>
+    <div className="middleSectionInnerContainer">
+      <div className="upperBarContainer">
         <UpperBar />
       </div>
-      <div>
+      <div className="calenderContainer">
         <Calender />
       </div>
-      <div>
+      <div className="firstEventContainer">
         <FirstEvent />
       </div>
     </div>

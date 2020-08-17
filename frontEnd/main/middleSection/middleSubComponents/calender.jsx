@@ -3,7 +3,7 @@ import React, {useState} from 'react';
 
 const Calender = () =>{
   return(
-    <div>
+    <div className="calenderInnerContainer">
       Calender Hooked Up
     </div>
   )

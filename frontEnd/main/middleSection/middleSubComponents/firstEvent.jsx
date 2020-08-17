@@ -3,7 +3,7 @@ import React, {useState} from 'react';
 
 const FirstEvent = () =>{
   return(
-    <div>
+    <div className="firstEventInnerContainer">
       FirstEvent Hooked Up
     </div>
   )

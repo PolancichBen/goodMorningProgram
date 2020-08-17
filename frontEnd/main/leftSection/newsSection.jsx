@@ -4,12 +4,16 @@ import NewsStory from './newsSubSection/newsStory.jsx';
 
 const NewsSection = () =>{
   return(
-    <div>
-      <div>
+    <div className="newsInnerContainer">
+      <div className="newsTitle">
       News Section Title
       </div>
-      <div>
+      <div className="newsStories">
         Map
+        <NewsStory />
+        <NewsStory />
+        <NewsStory />
+        <NewsStory />
         <NewsStory />
       </div>
     </div>

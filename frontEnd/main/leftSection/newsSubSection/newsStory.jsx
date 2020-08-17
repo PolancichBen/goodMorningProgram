@@ -3,7 +3,7 @@ import React, {useState} from 'react';
 
 const NewsStory = () =>{
   return(
-    <div>
+    <div className="newsStoryIndiv">
       NewsStory Hooked Up
     </div>
   )

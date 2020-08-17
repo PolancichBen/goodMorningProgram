@@ -5,14 +5,14 @@ import MiniModulesSection from './rightSection/miniModulesSection.jsx';
 
 const Main = () => {
   return (
-    <div>
-      <div>
+    <div className="mainContainer">
+      <div className="newsContainer">
         <NewsSection />
       </div>
-      <div>
+      <div className="middleContainer">
         <MiddleSection />
       </div>
-      <div>
+      <div className="miniModulesContainer">
         <MiniModulesSection />
       </div>
     </div>

@@ -98,6 +98,30 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var reac
 
 /***/ }),
 
+/***/ "./frontEnd/main/leftSection/newsSection.jsx":
+/*!***************************************************!*\
+  !*** ./frontEnd/main/leftSection/newsSection.jsx ***!
+  \***************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _newsSubSection_newsStory_jsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./newsSubSection/newsStory.jsx */ \"./frontEnd/main/leftSection/newsSubSection/newsStory.jsx\");\n\n\n\nvar NewsSection = function NewsSection() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"newsInnerContainer\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"newsTitle\"\n  }, \"News Section Title\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"newsStories\"\n  }, \"Map\", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_newsSubSection_newsStory_jsx__WEBPACK_IMPORTED_MODULE_1__[\"default\"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_newsSubSection_newsStory_jsx__WEBPACK_IMPORTED_MODULE_1__[\"default\"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_newsSubSection_newsStory_jsx__WEBPACK_IMPORTED_MODULE_1__[\"default\"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_newsSubSection_newsStory_jsx__WEBPACK_IMPORTED_MODULE_1__[\"default\"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_newsSubSection_newsStory_jsx__WEBPACK_IMPORTED_MODULE_1__[\"default\"], null)));\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (NewsSection);\n\n//# sourceURL=webpack:///./frontEnd/main/leftSection/newsSection.jsx?");
+
+/***/ }),
+
+/***/ "./frontEnd/main/leftSection/newsSubSection/newsStory.jsx":
+/*!****************************************************************!*\
+  !*** ./frontEnd/main/leftSection/newsSubSection/newsStory.jsx ***!
+  \****************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n\n\nvar NewsStory = function NewsStory() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"newsStoryIndiv\"\n  }, \"NewsStory Hooked Up\");\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (NewsStory);\n\n//# sourceURL=webpack:///./frontEnd/main/leftSection/newsSubSection/newsStory.jsx?");
+
+/***/ }),
+
 /***/ "./frontEnd/main/main.jsx":
 /*!********************************!*\
   !*** ./frontEnd/main/main.jsx ***!
@@ -106,7 +130,139 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var reac
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n\n\nvar Main = function Main() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", null, \"Hooked Up\");\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Main);\n\n//# sourceURL=webpack:///./frontEnd/main/main.jsx?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _leftSection_newsSection_jsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./leftSection/newsSection.jsx */ \"./frontEnd/main/leftSection/newsSection.jsx\");\n/* harmony import */ var _middleSection_middleSection_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./middleSection/middleSection.jsx */ \"./frontEnd/main/middleSection/middleSection.jsx\");\n/* harmony import */ var _rightSection_miniModulesSection_jsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./rightSection/miniModulesSection.jsx */ \"./frontEnd/main/rightSection/miniModulesSection.jsx\");\n\n\n\n\n\nvar Main = function Main() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"mainContainer\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"newsContainer\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_leftSection_newsSection_jsx__WEBPACK_IMPORTED_MODULE_1__[\"default\"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"middleContainer\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_middleSection_middleSection_jsx__WEBPACK_IMPORTED_MODULE_2__[\"default\"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"miniModulesContainer\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_rightSection_miniModulesSection_jsx__WEBPACK_IMPORTED_MODULE_3__[\"default\"], null)));\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Main);\n\n//# sourceURL=webpack:///./frontEnd/main/main.jsx?");
+
+/***/ }),
+
+/***/ "./frontEnd/main/middleSection/middleSection.jsx":
+/*!*******************************************************!*\
+  !*** ./frontEnd/main/middleSection/middleSection.jsx ***!
+  \*******************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _middleSubComponents_upperBar_jsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./middleSubComponents/upperBar.jsx */ \"./frontEnd/main/middleSection/middleSubComponents/upperBar.jsx\");\n/* harmony import */ var _middleSubComponents_calender_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./middleSubComponents/calender.jsx */ \"./frontEnd/main/middleSection/middleSubComponents/calender.jsx\");\n/* harmony import */ var _middleSubComponents_firstEvent_jsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./middleSubComponents/firstEvent.jsx */ \"./frontEnd/main/middleSection/middleSubComponents/firstEvent.jsx\");\n\n\n\n\n\nvar MiddleSection = function MiddleSection() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"middleSectionInnerContainer\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"upperBarContainer\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_middleSubComponents_upperBar_jsx__WEBPACK_IMPORTED_MODULE_1__[\"default\"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"calenderContainer\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_middleSubComponents_calender_jsx__WEBPACK_IMPORTED_MODULE_2__[\"default\"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"firstEventContainer\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_middleSubComponents_firstEvent_jsx__WEBPACK_IMPORTED_MODULE_3__[\"default\"], null)));\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (MiddleSection);\n\n//# sourceURL=webpack:///./frontEnd/main/middleSection/middleSection.jsx?");
+
+/***/ }),
+
+/***/ "./frontEnd/main/middleSection/middleSubComponents/calender.jsx":
+/*!**********************************************************************!*\
+  !*** ./frontEnd/main/middleSection/middleSubComponents/calender.jsx ***!
+  \**********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n\n\nvar Calender = function Calender() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"calenderInnerContainer\"\n  }, \"Calender Hooked Up\");\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Calender);\n\n//# sourceURL=webpack:///./frontEnd/main/middleSection/middleSubComponents/calender.jsx?");
+
+/***/ }),
+
+/***/ "./frontEnd/main/middleSection/middleSubComponents/firstEvent.jsx":
+/*!************************************************************************!*\
+  !*** ./frontEnd/main/middleSection/middleSubComponents/firstEvent.jsx ***!
+  \************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n\n\nvar FirstEvent = function FirstEvent() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"firstEventInnerContainer\"\n  }, \"FirstEvent Hooked Up\");\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (FirstEvent);\n\n//# sourceURL=webpack:///./frontEnd/main/middleSection/middleSubComponents/firstEvent.jsx?");
+
+/***/ }),
+
+/***/ "./frontEnd/main/middleSection/middleSubComponents/upperBar.jsx":
+/*!**********************************************************************!*\
+  !*** ./frontEnd/main/middleSection/middleSubComponents/upperBar.jsx ***!
+  \**********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n\n\nvar UpperBar = function UpperBar() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"upperBarInnerContainer\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"weatherSymbol\"\n  }, \"Weather Symbol\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"timeContainer\"\n  }, \"Time\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"notifications\"\n  }, \"Notifications\"));\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (UpperBar);\n\n//# sourceURL=webpack:///./frontEnd/main/middleSection/middleSubComponents/upperBar.jsx?");
+
+/***/ }),
+
+/***/ "./frontEnd/main/rightSection/miniModulesSection.jsx":
+/*!***********************************************************!*\
+  !*** ./frontEnd/main/rightSection/miniModulesSection.jsx ***!
+  \***********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _subModules_weather_jsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./subModules/weather.jsx */ \"./frontEnd/main/rightSection/subModules/weather.jsx\");\n/* harmony import */ var _subModules_music_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./subModules/music.jsx */ \"./frontEnd/main/rightSection/subModules/music.jsx\");\n/* harmony import */ var _subModules_email_jsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./subModules/email.jsx */ \"./frontEnd/main/rightSection/subModules/email.jsx\");\n/* harmony import */ var _subModules_localTraffic_jsx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./subModules/localTraffic.jsx */ \"./frontEnd/main/rightSection/subModules/localTraffic.jsx\");\n/* harmony import */ var _subModules_stocks_jsx__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./subModules/stocks.jsx */ \"./frontEnd/main/rightSection/subModules/stocks.jsx\");\n/* harmony import */ var _subModules_dailyInspiration_jsx__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./subModules/dailyInspiration.jsx */ \"./frontEnd/main/rightSection/subModules/dailyInspiration.jsx\");\n\n\n\n\n\n\n\n\nvar MiniModulesSection = function MiniModulesSection() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"miniModulesInnerContainer\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"miniModulesHeader\"\n  }, \"MiniModulesSection Header\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"modules\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"moduleContainer\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_subModules_weather_jsx__WEBPACK_IMPORTED_MODULE_1__[\"default\"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"moduleContainer\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_subModules_music_jsx__WEBPACK_IMPORTED_MODULE_2__[\"default\"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"moduleContainer\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_subModules_email_jsx__WEBPACK_IMPORTED_MODULE_3__[\"default\"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"moduleContainer\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_subModules_localTraffic_jsx__WEBPACK_IMPORTED_MODULE_4__[\"default\"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"moduleContainer\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_subModules_stocks_jsx__WEBPACK_IMPORTED_MODULE_5__[\"default\"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"moduleContainer\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_subModules_dailyInspiration_jsx__WEBPACK_IMPORTED_MODULE_6__[\"default\"], null))));\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (MiniModulesSection);\n\n//# sourceURL=webpack:///./frontEnd/main/rightSection/miniModulesSection.jsx?");
+
+/***/ }),
+
+/***/ "./frontEnd/main/rightSection/subModules/dailyInspiration.jsx":
+/*!********************************************************************!*\
+  !*** ./frontEnd/main/rightSection/subModules/dailyInspiration.jsx ***!
+  \********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n\n\nvar DailyInspiration = function DailyInspiration() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", null, \"DailyInspiration Hooked Up\");\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (DailyInspiration);\n\n//# sourceURL=webpack:///./frontEnd/main/rightSection/subModules/dailyInspiration.jsx?");
+
+/***/ }),
+
+/***/ "./frontEnd/main/rightSection/subModules/email.jsx":
+/*!*********************************************************!*\
+  !*** ./frontEnd/main/rightSection/subModules/email.jsx ***!
+  \*********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n\n\nvar EmailModule = function EmailModule() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", null, \"EmailModule Hooked Up\");\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (EmailModule);\n\n//# sourceURL=webpack:///./frontEnd/main/rightSection/subModules/email.jsx?");
+
+/***/ }),
+
+/***/ "./frontEnd/main/rightSection/subModules/localTraffic.jsx":
+/*!****************************************************************!*\
+  !*** ./frontEnd/main/rightSection/subModules/localTraffic.jsx ***!
+  \****************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n\n\nvar LocalTrafficModule = function LocalTrafficModule() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", null, \"LocalTrafficModule Hooked Up\");\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (LocalTrafficModule);\n\n//# sourceURL=webpack:///./frontEnd/main/rightSection/subModules/localTraffic.jsx?");
+
+/***/ }),
+
+/***/ "./frontEnd/main/rightSection/subModules/music.jsx":
+/*!*********************************************************!*\
+  !*** ./frontEnd/main/rightSection/subModules/music.jsx ***!
+  \*********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n\n\nvar MusicModule = function MusicModule() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", null, \"MusicModule Hooked Up\");\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (MusicModule);\n\n//# sourceURL=webpack:///./frontEnd/main/rightSection/subModules/music.jsx?");
+
+/***/ }),
+
+/***/ "./frontEnd/main/rightSection/subModules/stocks.jsx":
+/*!**********************************************************!*\
+  !*** ./frontEnd/main/rightSection/subModules/stocks.jsx ***!
+  \**********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n\n\nvar StocksModule = function StocksModule() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", null, \"StocksModule Hooked Up\");\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (StocksModule);\n\n//# sourceURL=webpack:///./frontEnd/main/rightSection/subModules/stocks.jsx?");
+
+/***/ }),
+
+/***/ "./frontEnd/main/rightSection/subModules/weather.jsx":
+/*!***********************************************************!*\
+  !*** ./frontEnd/main/rightSection/subModules/weather.jsx ***!
+  \***********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n\n\nvar WeatherModule = function WeatherModule() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", null, \"WeatherModule Hooked Up\");\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (WeatherModule);\n\n//# sourceURL=webpack:///./frontEnd/main/rightSection/subModules/weather.jsx?");
 
 /***/ }),
 

@@ -5,7 +5,13 @@ import NewsStory from './newsSubSection/newsStory.jsx';
 const NewsSection = () =>{
   return(
     <div>
-      NewsSection Hooked Up
+      <div>
+      News Section Title
+      </div>
+      <div>
+        Map
+        <NewsStory />
+      </div>
     </div>
   )
 }

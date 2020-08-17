@@ -6,7 +6,15 @@ import MiniModulesSection from './rightSection/miniModulesSection.jsx';
 const Main = () => {
   return (
     <div>
-      Hooked Up
+      <div>
+        <NewsSection />
+      </div>
+      <div>
+        <MiddleSection />
+      </div>
+      <div>
+        <MiniModulesSection />
+      </div>
     </div>
   )
 }

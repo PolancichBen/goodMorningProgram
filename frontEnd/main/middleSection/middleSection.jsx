@@ -6,7 +6,15 @@ import FirstEvent from './middleSubComponents/firstEvent.jsx';
 const MiddleSection = () =>{
   return(
     <div>
-      MiddleSection Hooked Up
+      <div>
+        <UpperBar />
+      </div>
+      <div>
+        <Calender />
+      </div>
+      <div>
+        <FirstEvent />
+      </div>
     </div>
   )
 }

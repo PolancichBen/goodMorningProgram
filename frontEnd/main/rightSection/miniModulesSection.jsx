@@ -10,7 +10,27 @@ import DailyInspiration from './subModules/dailyInspiration.jsx';
 const MiniModulesSection = () =>{
   return(
     <div>
-      MiniModulesSection Hooked Up
+      <div>
+      MiniModulesSection Header
+      </div>
+      <div>
+        <WeatherModule />
+      </div>
+      <div>
+        <MusicModule />
+      </div>
+      <div>
+        <EmailModule />
+      </div>
+      <div>
+        <LocalTrafficModule />
+      </div>
+      <div>
+        <StocksModule />
+      </div>
+      <div>
+        <DailyInspiration />
+      </div>
     </div>
   )
 }
